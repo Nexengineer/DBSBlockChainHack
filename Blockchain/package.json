@@ -1,0 +1,11 @@
+{
+  "name": "test-bank",
+  "version": "1.6.0",
+  "description": "This is the blockchain app for transcation fraud detection. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Neeraj Kumar Mishra",
+  "license": "Apache-2.0"
+}

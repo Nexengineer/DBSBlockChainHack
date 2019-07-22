@@ -1,0 +1,22 @@
+{
+  "name": "blockchain_middleware",
+  "version": "1.0.0",
+  "description": "This is the middle ware for the blockchain app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Neeraj Kumar Mishra",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "request": "^2.88.0",
+    "sha256": "^0.2.0",
+    "uuid": "^3.3.2"
+  }
+}

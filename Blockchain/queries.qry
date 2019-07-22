@@ -1,0 +1,39 @@
+
+// Get all the customer details
+query getAllCustomers {
+  description: "Select all customer"
+  statement:
+      SELECT test.Customer
+}
+
+//Get all the transcations
+query getAllTranscations {
+  description: "Select all transcations"
+    statement:
+      SELECT test.AccountTransfer
+}
+
+//Get all the accounts
+query getAllAccounts {
+  description: "select All accounts"
+    statement:
+      SELECT test.Account
+        
+
+}
+
+// Get account by name 
+query getAccountByName {
+  description: "Get all the accounts by name "
+    statement:
+      SELECT test.Customer
+        WHERE (name == _$name)
+}
+
+// Get transcations by type
+query gettranscations {
+  description: "Get all the transcations as per type "
+    statement:
+      SELECT test.AccountTransfer
+        WHERE (status == _$status)
+}

@@ -1,0 +1,144 @@
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Header > h3 {
+  color: white;
+  background-color: #336B6B;
+  padding: 20px;
+  margin-top: 0;
+  flex: 1
+}
+
+.footer {
+  flex: 1;
+}
+
+.content {
+  flex: 10;
+  background-color: aliceblue;
+  margin-top: 0;
+  height: "100%";
+  width: "100%";
+  justify-content: center;
+  
+}
+
+.ant-layout {
+  height: 100vh;
+}
+
+*:focus {
+  outline: none;
+}
+
+.demo-infinite-container {
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  overflow: auto;
+  padding: 8px 24px;
+  height: 300px;
+}
+.demo-infinite-table-container{
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  overflow: auto;
+  height: 500px; 
+}
+.demo-loading-container {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  text-align: center;
+}
+.demo-stock-container {
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  overflow: auto;
+  height: 550px; 
+}
+.rows .row {
+  display: inline-block;
+}
+
+.gstvalue {
+  display: inline-block;
+  padding: 5;
+  margin-left: 10px;
+  margin-right: 2;
+}
+
+#listing_specs table {
+  width: 100%;
+  display: table;
+}
+
+#listing_specs table tbody {
+  display: table-row-group;
+  width: 100%;
+}
+.zui-table {
+  border: solid 1px #DDEEEE;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border-spacing: 0;
+}
+
+.zui-table th {
+  background-color: #DDEFEF;
+  border: solid 1px #DDEEEE;
+  color: #336B6B;
+  padding: 10px;
+  text-align: left;
+  text-shadow: 1px 1px 1px #fff;
+  width: 100%;
+}
+
+
+.zui-table td {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 8px;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* 
+.zui-table {
+  border: solid 1px #DDEEEE;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font: normal 13px Arial, sans-serif;
+  width: 100%;
+  display: table;
+}
+
+.zui-table thead th {
+  background-color: #DDEFEF;
+  border: solid 1px #DDEEEE;
+  color: #336B6B;
+  padding: 10px;
+  text-align: left;
+  text-shadow: 1px 1px 1px #fff;
+}
+.zui-table tbody td {
+  border: solid 1px #DDEEEE;
+  color: #333;
+  padding: 10px;
+  text-shadow: 1px 1px 1px #fff;
+  text-align: left;
+  width: 100%;
+} */
+
+
